@@ -19,7 +19,7 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 cd ~
 
-rm –rf centos-vim-rczhang/
+rm -rf centos-vim-rczhang/
 
 sudo pip install powerline-status
 
