@@ -14,6 +14,8 @@ sudo pip install powerline-status
 
 
 下面的命令只是为使shell提示符有个酷炫的效果，可以不执行
+
 . /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+
 
 若想root用户的vim或shell提示符也有上述效果，则可切换到root后再执行一遍上述命令。
