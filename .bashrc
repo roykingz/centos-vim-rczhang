@@ -40,4 +40,4 @@ __mikespook_ps1() {
 
 export PS1=$(__mikespook_ps1)
 
-. /usr/local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+. /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
