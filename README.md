@@ -11,6 +11,8 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 cd ~
 rm –rf centos-vim-rczhang/
 sudo pip install powerline-status
+
+
 下面的命令只是为使shell提示符有个酷炫的效果，可以不执行
 . /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 
