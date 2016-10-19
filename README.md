@@ -29,4 +29,4 @@ sudo pip install powerline-status
 . /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 
 
-若想root用户的vim或shell提示符也有上述效果，则可切换到root后再执行一遍上述命令。
+然后切换为root用户，再执行一遍上述命令，使得root的vim和shell提示符也有上述效果。
