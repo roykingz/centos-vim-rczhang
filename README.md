@@ -1,3 +1,4 @@
+sudo yum install -y ctags
 这些vim配置文件可以安装一些好用的vim插件，并改变vim外观
 切换到普通用户（以下命令均在普通用户下执行）
 
