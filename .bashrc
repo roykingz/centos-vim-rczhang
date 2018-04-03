@@ -35,9 +35,9 @@ __mikespook_ps1() {
 }
 
 #git-prompt.sh PS1
-#source ~/.git-prompt.sh
-#PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$'
+source ~/.git-prompt.sh
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$'
 
 export PS1=$(__mikespook_ps1)
 
-. /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+#. /usr/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh

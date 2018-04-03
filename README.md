@@ -1,8 +1,8 @@
-sudo yum install -y ctags
 这些vim配置文件可以安装一些好用的vim插件，并改变vim外观
 切换到普通用户（以下命令均在普通用户下执行）
 
 cd ~
+sudo yum install -y ctags
 
 mv .vim .vim_bak
 
@@ -10,11 +10,13 @@ mv .vimrc .vimrc_bak
 
 mv .bashrc .bashrc_bak
 
+mv .git-prompt.sh .git-promptp.sh_back
+
 git clone https://github.com/roykingz/centos-vim-rczhang.git
 
 cd centos-vim-rczhang
 
-mv .bashrc .vim/ .vimrc ~
+mv .bashrc .vim/ .vimrc .git-prompt.sh ~
 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
@@ -22,6 +24,7 @@ cd ~
 
 rm -rf centos-vim-rczhang/
 
+下面这些设置效果不佳，暂时别用
 sudo pip install powerline-status
 
 
